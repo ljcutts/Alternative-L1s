@@ -1,5 +1,7 @@
 # Alternative Layer 1 Blockchains
 
+![](https://i.imgur.com/DRLX5t7.png)
+
 ## Table of Contents
 - Introduction
 - Layer 1 vs Layer 2
@@ -31,6 +33,8 @@ Examples of Layer 2 blockchains include Polygon*, Optimism, Arbitrum, zkSync, Li
 Now, we will look at a few different Layer 1 blockchains and try to compare them to Ethereum.
 
 ## NEAR Protocol
+![](https://i.imgur.com/QBhOJRz.png)
+
 NEAR is a Layer-1 smart contract platform that utilizes parallel sharding storage and computation technology to scale. It also uses Proof of Stake consensus, instead of Ethereum's current Proof of Work, and has over 50 validators securing millions of dollars on the network.
 
 #### What is Sharding?
@@ -89,6 +93,8 @@ It is important to note than NEAR also runs an Ethereum Layer 2 blockchain calle
 
 
 ## Flow Blockchain
+![](https://i.imgur.com/rohORkF.png)
+
 Flow describes themselves as a "fast, decentralized, and developer-friendly blockchain". They are based on a multi-role architecture, and designed to scale **without** sharding.
 
 Flow is based on four foundations that make it unique and worth discussing:
@@ -149,6 +155,8 @@ Flow has focused on making things easy to use for the mainstream. When interacti
 - Most of the applications that currently exist on Flow are made by the team behind it directly. Though more apps are currently being developed and the team is aggressively trying to onboard more external developers on the ecosystem.
 
 ## Avalanche
+![](https://i.imgur.com/agzms5v.png)
+
 Avalanche is an open source platform for building dApps and enterprise platforms in an interoperable ecosystem of blockchains. It is a smart contracts platform, which offers high throughput and near-instant transaction finality. Also, Avalanche supports Solidity so smart contracts from Ethereum can easily be ported over to Avalanche.
 
 Avalanche is an ecosystem, not a single blockchain. There are multiple chains that can exist on top of the Avalanche ecosystem. The most popular one is the Avalanche C-Chain, which is an EVM compatible chain and supports Solidity smart contracts. However, entirely new blockchain systems can be built in the Avalanche ecosystem with varying properties.
@@ -179,6 +187,8 @@ Short of creating your own subnet, the main chain that Avalanche is used for is 
 - Avalanche is less decentralized than Ethereum at the time of writing
 
 ## Solana
+![](https://i.imgur.com/8D0mVBm.png)
+
 Solana has been talked about a lot recently, and has been making the rounds on news. They have seen some good days and some bad days, but for this section, we will try to go over a little bit of what technology they are running under the hood.
 
 Solana is a Proof of Stake blockchain with some additional technology. The most important part of this additional technology is something they call **Proof of History**. 
