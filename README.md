@@ -11,7 +11,7 @@
 - Solana
 
 ## Introduction
-So far we have looked at Ethereum, did some reading on Layer 2 solutions, and used Polygon Network for most of the Junior Track. However, there exist multiple other Layer 1 blockchains as well that are worth looking into. In this article, we will talk a little bit about a few different Layer 1 blockchains.
+So far we have looked at Ethereum, however, there exist multiple other Layer 1 blockchains as well that are worth looking into. In this article, we will talk a little bit about a few different Layer 1 blockchains.
 
 ## Layer 1 vs Layer 2
 Layer 1 and Layer 2 are terms used to describe 'types' of blockchains. Layer 1 blockchains are those which are the main blockchain themselves, whereas Layer 2 blockchains are those which are overlaying networks on top of a Layer 1 blockchain.
