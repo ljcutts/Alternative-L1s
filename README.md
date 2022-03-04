@@ -26,7 +26,7 @@ Layer 2 blockchains refer to networks that operate on top of an underlying Layer
 
 Examples of Layer 2 blockchains include Polygon*, Optimism, Arbitrum, zkSync, Lightning Network, etc.
 
-> `*` Polygon's PoS chain is a loose example of a Layer 2, since it acts almost as a complete Layer 1 as it does not post proofs on Ethereum about transaction validity. The technical term is a **sidechain**. However, it does compile and anchor state of Polygon's chain in a compressed form on the Ethereum network periodically. So it doesn't derive the security benefits of Ethereum entirely, but does post state updates to Ethereum periodically, so if Polygon were compromised, it would be recoverable at the latest checkpoint from the Ethereum network.
+> `*` Polygon's PoS chain is a loose example of a Layer 2, since it is a Plasma implementation and is essentially a sidechain which also posts summarized data snapshots to the main chain. It does compile and anchor state of Polygon's chain in a compressed form on the Ethereum network periodically. But, since it doesn't provide validity proofs of transactions that were executed, trust is still placed in Polygon Network's validator set. So it doesn't derive the security benefits of Ethereum entirely, but does post state updates to Ethereum periodically, so if Polygon were compromised, it would be recoverable at the latest checkpoint from the Ethereum network.
 
 ---
 
