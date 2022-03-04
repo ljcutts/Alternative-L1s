@@ -11,7 +11,7 @@
 - Solana
 
 ## Introduction
-So far we have looked at Ethereum, however, there exist multiple other Layer 1 blockchains as well that are worth looking into. In this article, we will talk a little bit about a few different Layer 1 blockchains.
+So far we have looked at Ethereum, did some reading on Layer 2 solutions, and used Polygon Network for most of the Junior Track. However, there exist multiple other Layer 1 blockchains as well that are worth looking into. In this article, we will talk a little bit about a few different Layer 1 blockchains.
 
 ## Layer 1 vs Layer 2
 Layer 1 and Layer 2 are terms used to describe 'types' of blockchains. Layer 1 blockchains are those which are the main blockchain themselves, whereas Layer 2 blockchains are those which are overlaying networks on top of a Layer 1 blockchain.
@@ -52,7 +52,7 @@ The bottleneck for scalability now becomes the Beacon chain, as that is responsi
 #### What if there is a fork?
 While shard chains + Beacon chain model is powerful, it has complexities when we talk about what happens if the chain forks. Decision for which chain becomes the 'true' chain needs to be made on each shard individually, and the logic for the beacon chain and shard chains is different.
 
-Due to this, NEAR follows a slightly improved model. In NEAR, the system is modeled logically as a single blockchain, where each block contains all the transactions for all of the blocks, and changes the state of all shards simultaneously. However, physically, no single participant needs to download the full state of the block, and only downloads the state relevant to their shard(s).
+Due to this, NEAR follows a slightly improved model. In NEAR, the system is modeled logically as a single blockchain, where each block contains all the transactions for all of the blocks, and changes the state of all shards simultaneously. So if a fork happens, the entire chain effectively ends up choosing a single, logical longest chain. However, physically, no single participant needs to download the full state of the block, and only downloads the state relevant to their shard(s).
 
 #### How do transactions which interact with multiple shards work?
 Sharding is quite useless if individual shards cannot communicate with each other, they are not any better than multiple independent blockchains communicating with each other.
