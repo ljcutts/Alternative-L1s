@@ -131,7 +131,7 @@ Ownership of 'resources', like digital assets, is enabled directly by the progra
 
 Labelling something as a resource tells the programming language that this data represents something of value, and that all code that interacts with that data needs to follow special rules to maintain the value of the data.
 
-1. Each resource can only exist in one place at any given time. Resources cannot be duplicated or accidentaly deleted, thhrough programming errors or through malicious code.
+1. Each resource can only exist in one place at any given time. Resources cannot be duplicated or accidentaly deleted, through programming errors or through malicious code.
 2. Ownership of a resource is defined by where it is stored in the code.
 3. Access to methods on a resource is limited only to the owner. For example, only the owner of an NFT can initiate a function that modifies that NFT. This is built into the language directly by placing that NFT's data into the owner's storage, instead of having to create `onlyOwner` modifiers or similar workarounds.
 
